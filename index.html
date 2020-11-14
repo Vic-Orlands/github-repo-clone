@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<title>Github.com</title>
+<link rel="stylesheet" href="./css/all.css" >
+
+
+<link rel="icon" type="image/png" href="/favico.png" sizes="128x128">
+<body>
+	<nav class='top-nav'>
+        <div class="div">
+            <a>
+                <i class="fab fa-github" id="github"></i>
+            </a>
+
+            <div class="input">
+                <input type="text" placeholder="Search or jump to">
+                <p>/</p>
+            </div>
+
+            <ul>
+                <li>Pull requests</li>
+                <li>Issues</li>
+                <li>Marketplace</li>
+                <li>Explore</li>
+            </ul>
+        </div>
+
+        <div class="notify">
+            <a href="#">
+                <i class="fas fa-bell"></i>
+            </a>
+
+            <p>+<i class="fas fa-sort-down" id="fas"></i></p>
+
+            <div class="img">
+                <img src="./img.png" alt="img" height="20px" id="img">
+                <i class="fas fa-sort-down" id="fas"></i>
+            </div>
+        </div>
+
+
+
+        <div class="mobile-view closed">
+            <div class="dropDown">
+                <i class="fas fa-bars" class="drop"></i>
+                
+                <i class="fab fa-github" id="github"></i>
+                
+                <i class="fas fa-bell" id="bell"></i>
+            </div>
+
+            <ul class="mobile-list">
+                <input type="text" placeholder="Search">
+                <li>Dashboard</li>
+                <li>Pull requests</li>
+                <li>Issues</li>
+                <li>Marketplace</li>
+                <li>Explore</li>
+                <li class="fift">
+                <img src="./img.png" alt="img" height="20px" id="img3" />
+                Vic-Orlands
+                </li>
+                <li><i class="fa fa-sign-out-alt"></i>Sign out</li>
+            </ul> 
+        </div>
+    </nav>
+
+    <section class="main-container">
+    <header>
+        <hgroup>
+            <h2><i class="fas fa-book-open"></i></i>overview</h2>
+            <h2><i class="fas fa-book"></i>repositories <span id="repos">1</span></h2>
+            <h2><i class="fas fa-file-alt"></i>projects</h2>
+            <h2><i class="fas fa-cube"></i>packages</h2>
+        </hgroup>
+    </header>
+
+        <aside class="description">
+            <div>
+                <img src="./img.jpeg" alt="img" height="278px" width="280px" id="img2" >
+                <p><i class="far fa-smile-beam"></i> <span>Smiling...</span></p>
+            </div>
+
+            <h1>Vic-Orlands</h1>
+            <h2>Vic-Orlands</h2>
+            <h4 id="occupation">A frontend Developer</h4>
+
+            <button>Edit Profile</button>
+
+            <div class="flexName">
+                <ul class="follow">
+                    <li><i class="fa fa-user-friends"></i><span id="follow1">1</span>followers</li>
+                    <li><span id="follow2">4</span>following</li>
+                    <li><i class="far fa-star"></i><span>2</span></li>
+                </ul>
+                
+                <ul class="location">
+                    <li><i class="fas fa-map-marker-alt"></i>Aba, Abia State</li>
+                    <li><i class="fas fa-link"></i>vicorlands.netlify.com</li>
+                    <li><i class="fab fa-twitter"></i>@Vic-Orlands</li>
+                </ul>
+            </div>
+        </aside>
+
+        <article>
+            <input type="text" placeholder="Find a repository...">
+
+            <section class="sect">
+                <div class="repo-list">
+                </div>
+                
+            </section>
+        </article>
+    </section>
+
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
